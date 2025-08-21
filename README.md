@@ -27,14 +27,16 @@ O sistema possui autenticação baseada em cartões RFID cadastrados em uma list
 ## 📜 Como usar
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/fechadura-eletronica-rfid.git```
-   Abra a pasta src/ e carregue o código fechadura_rfid.ino no Arduino IDE ou PlatformIO.
+   git clone https://github.com/seu-usuario/fechadura-eletronica-rfid.git
+   ``
+   
+2. Abra a pasta src/ e carregue o código fechadura_rfid.ino no Arduino IDE ou PlatformIO.
 
-2. Instale as bibliotecas necessárias:
+3. Instale as bibliotecas necessárias:
 MFRC522
 LiquidCrystal_I2C
 Wire
 
-3. Ajuste os pinos conforme seu hardware (SS, RST, buzzer, relé).
+4. Ajuste os pinos conforme seu hardware (SS, RST, buzzer, relé).
 
-4. Grave no ESP32 e aproxime um cartão RFID para testar.
+5. Grave no ESP32 e aproxime um cartão RFID para testar.
