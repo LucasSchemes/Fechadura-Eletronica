@@ -28,7 +28,7 @@ O sistema possui autenticação baseada em cartões RFID cadastrados em uma list
 1. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/fechadura-eletronica-rfid.git
-   ``
+   
    
 2. Abra a pasta src/ e carregue o código fechadura_rfid.ino no Arduino IDE ou PlatformIO.
 
